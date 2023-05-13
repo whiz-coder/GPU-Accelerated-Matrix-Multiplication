@@ -8,7 +8,7 @@ You will need a Nvidia GPU to run this code but incase if you dont have nvidia G
 
 Here are the step-by-step instructions to run the code using Google Colab with a GPU:
 
--Open your web browser and go to Google Colab.
+- Open your web browser and go to Google Colab.
 
 -Click on "New Notebook" to create a new Colab notebook.
 
