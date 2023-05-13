@@ -23,7 +23,7 @@ By following these steps, you can utilize the GPU capabilities offered by Google
 
 Note ! 
 
-Some parts of the code may require additional installations. For example, if the required packages (pycuda, numpy, matplotlib) are not already installed in your pc/laptom or in the Colab environment, you may need to install them using !pip install <package_name> before running the code.
+Some parts of the code may require additional installations. For example, if the required packages (pycuda, numpy, matplotlib) are not already installed in your pc/laptop or in the Colab environment, you may need to install them using !pip install <package_name> before running the code.
 
 Results:
 
