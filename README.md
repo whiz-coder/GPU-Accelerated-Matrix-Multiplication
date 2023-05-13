@@ -21,6 +21,10 @@ Here are the step-by-step instructions to run the code using Google Colab with a
 
 By following these steps, you can utilize the GPU capabilities offered by Google Colab to run the code, even if you don't have an NVIDIA GPU on your local machine.
 
+Note ! 
+
+Some parts of the code may require additional installations. For example, if the required packages (pycuda, numpy, matplotlib) are not already installed in your pc/laptom or in the Colab environment, you may need to install them using !pip install <package_name> before running the code.
+
 Results:
 
 ![download (4)](https://github.com/whiz-coder/GPU-Accelerated-Matrix-Multiplication/assets/73718958/2868a823-36f9-4a0e-ae87-e124e1f34a40)
