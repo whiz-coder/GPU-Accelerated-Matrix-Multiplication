@@ -4,6 +4,7 @@
 This code compares the performance of matrix multiplication on a CPU and GPU. It utilizes the PyCUDA library to accelerate the computation on the GPU. The code measures the running times of both the CPU and GPU implementations and verifies the correctness of the GPU results. The goal is to assess the potential speedup achieved by leveraging GPU parallelism for matrix multiplication tasks.
 
 How to run this code:
+
 You will need a Nvidia GPU to run this code but incase if you dont have nvidia GPU you can use google colab.
 
 Here are the step-by-step instructions to run the code using Google Colab with a GPU:
