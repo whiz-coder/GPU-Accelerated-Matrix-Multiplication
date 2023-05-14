@@ -22,10 +22,10 @@ Here are the step-by-step instructions to run the code using Google Colab with a
 By following these steps, you can utilize the GPU capabilities offered by Google Colab to run the code, even if you don't have an NVIDIA GPU on your local machine.
 
 Note ! 
-This code is not optimized yet because In the matmul_cpu function, the matrix multiplication is implemented using nested loops, resulting in a sequential computation. The inner loop performs scalar multiplication and accumulation, which cannot be parallelized effectively. As a result, the CPU performs the calculations sequentially, leading to slower performance compared to the GPU.. In future ill try to make the optimized version of this code and will check the perfomance
+This code is not optimized yet because In the matmul_cpu function, the matrix multiplication is implemented using nested loops, resulting in a sequential computation. The inner loop performs scalar multiplication and accumulation, which cannot be parallelized effectively. As a result, the CPU performs the calculations sequentially, leading to slower performance compared to the GPU.. In future ill try to make the optimized version of this code and will check the perfomance!
 
 
-Some parts of the code may require additional installations. For example, if the required packages (pycuda, numpy, matplotlib) are not already installed in your pc/laptop or in the Colab environment, you may need to install them using !pip install <package_name> before running the code.Also the 
+Some parts of the code may require additional installations. For example, if the required packages (pycuda, numpy, matplotlib) are not already installed in your pc/laptop or in the Colab environment, you may need to install them using !pip install <package_name> before running the code.
 
 Results:
 
